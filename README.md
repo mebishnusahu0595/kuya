@@ -76,7 +76,7 @@ ky.save(df, 'cleaned_sales.csv')
 
 ## ✨ EXTRAORDINARY FEATURES - What Makes Kuya Special
 
-### 🚀 1. One-Command Cleaning
+###  1. One-Command Cleaning
 ```python
 import kuya as ky
 
@@ -89,45 +89,45 @@ cleaned_df = ky.quick_clean(df)
 # All in one line!
 ```
 
-### 🤖 2. AI-Powered Smart Analysis
+###  2. AI-Powered Smart Analysis
 ```python
 # Get AI-like insights automatically
 insights = df.smart_analysis()
-# 🔥 Finds strong correlations
-# ⚠️  Detects data quality issues
-# 💡 Gives recommendations
-# 📊 Provides actionable insights
+# Finds strong correlations
+# Detects data quality issues
+# Gives recommendations
+# Provides actionable insights
 ```
 
-### 🔍 3. Comprehensive Quality Reports
+###  3. Comprehensive Quality Reports
 ```python
 # Get a complete quality assessment with scoring
 quality = df.quality_report()
-# 📊 Quality score out of 100
-# ⚠️  Lists all issues
-# 💡 Provides fix recommendations
+# Quality score out of 100
+# Lists all issues
+# Provides fix recommendations
 ```
 
-### 💡 4. Automated Insights
+###  4. Automated Insights
 ```python
 # Let Kuya discover insights for you
 insights = df.auto_insights()
-# 🔍 Detects skewed distributions
-# 🔗 Finds correlations
-# 📈 Identifies trends
+# Detects skewed distributions
+# Finds correlations
+# Identifies trends
 # ⚡ Spots anomalies
 ```
 
-### 🎯 5. Smart Encoding
+###  5. Smart Encoding
 ```python
 # Intelligently encode categorical variables
 encoded_df = df.smart_encode(method='auto')
-# 🧠 Auto-detects best encoding method
-# ✅ Binary, Label, or One-Hot
-# 🎯 ML-ready in seconds
+# Auto-detects best encoding method
+# Binary, Label, or One-Hot
+# ML-ready in seconds
 ```
 
-### 📊 6. Multiple Normalization Methods
+###  6. Multiple Normalization Methods
 ```python
 # Normalize with various methods
 df_norm = df.normalize(method='minmax')    # Min-Max scaling
@@ -135,20 +135,20 @@ df_norm = df.normalize(method='zscore')    # Z-score standardization
 df_norm = df.normalize(method='robust')    # Robust scaling
 ```
 
-### 📝 7. Auto-Generated Reports
+###  7. Auto-Generated Reports
 ```python
 # Generate beautiful reports automatically
 ky.auto_report(df, output_path='analysis', format='html')
 ky.auto_report(df, output_path='analysis', format='txt')
-# 📄 Text reports for documentation
-# 🌐 HTML reports for presentations
+#  Text reports for documentation
+#  HTML reports for presentations
 ```
 
 ---
 
 ## ⚙️ Features
 
-### 🧹 1. Data Cleaning (`clean.py`)
+###  1. Data Cleaning (`clean.py`)
 
 Handle messy data like a pro.
 
@@ -169,7 +169,7 @@ df = df.standardize_columns()
 
 ---
 
-### 📊 2. Exploratory Data Analysis (`eda.py`)
+###  2. Exploratory Data Analysis (`eda.py`)
 
 Get instant insights from your dataset.
 
@@ -190,7 +190,7 @@ df.correlation_report()
 
 ---
 
-### 🎨 3. Visualization (`viz.py`)
+###  3. Visualization (`viz.py`)
 
 Make visualizations quick and clean.
 
@@ -211,7 +211,7 @@ df.pairplot()
 
 ---
 
-### 📁 4. I/O & Utility (`io.py`)
+### 4. I/O & Utility (`io.py`)
 
 Read and save data easily with auto-detection.
 
@@ -306,7 +306,7 @@ This single command performs:
 
 ---
 
-## � Why Kuya is Extraordinary
+## � Why Kuya ?
 
 ### Regular Pandas vs Kuya - The Difference
 
@@ -325,7 +325,7 @@ for col in df.select_dtypes(include=['object']).columns:
 
 **Kuya (1 line):**
 ```python
-df = ky.quick_clean(df)  # Done! ✨
+df = ky.quick_clean(df)  # Done! 
 ```
 
 ---
@@ -347,7 +347,7 @@ print(corr)
 
 **Kuya (1 line):**
 ```python
-df.smart_analysis()  # AI-powered insights! 🤖
+df.smart_analysis()  # AI-powered insights! 
 ```
 
 ---
@@ -379,12 +379,12 @@ df = df[(z_scores < 3).all(axis=1)]
 df = ky.quick_clean(df)           # Clean everything
 df = df.smart_encode()            # Intelligent encoding
 df = df.normalize(method='minmax') # Scale features
-# ML-ready! 🎯
+# ML-ready! 
 ```
 
 ---
 
-### 💡 The Kuya Advantage
+### The Kuya Advantage
 
 | Task | Regular Pandas | Kuya | Time Saved |
 |------|---------------|------|-----------|
@@ -398,7 +398,7 @@ df = df.normalize(method='minmax') # Scale features
 
 ---
 
-## �📖 Full Example Workflow
+## Full Example Workflow
 
 ```python
 import kuya as ky
@@ -429,7 +429,7 @@ ky.save(df, 'cleaned_sales.csv')
 
 ---
 
-## 🪄 Or Use Magic Analyze (One Command!)
+## Or Use Magic Analyze (One Command!)
 
 ```python
 import kuya as ky
@@ -441,7 +441,7 @@ df.magic_analyze()  # Does everything automatically!
 
 ---
 
-## 💻 Command Line Interface
+## Command Line Interface
 
 Kuya now includes a powerful CLI for quick analysis:
 
@@ -464,7 +464,7 @@ python kuya_cli.py version
 
 ---
 
-## 🎯 Why Use Kuya?
+## Why Use Kuya?
 
 | Instead of... | Use Kuya... |
 |---------------|-------------|
@@ -477,7 +477,7 @@ python kuya_cli.py version
 
 ---
 
-## 🛠️ Module Structure
+## Module Structure
 
 ```
 kuya/
@@ -491,42 +491,42 @@ kuya/
 
 ---
 
-## 🌱 Future Roadmap
+##  Future Roadmap
 
-- 🤖 **KuyaAI**: Automatic data analysis suggestions
-- 📄 **Auto Reports**: Export analysis to PDF/HTML
-- 🎯 **ML Preprocessing**: Auto-scaling, encoding, feature engineering
-- 🖥️ **GUI Version**: Drag-and-drop interface with Streamlit
-- 🔮 **Predictive Insights**: ML-powered predictions
-- 🌐 **Web Dashboard**: Interactive web-based analytics
+-  **KuyaAI**: Automatic data analysis suggestions
+-  **Auto Reports**: Export analysis to PDF/HTML
+-  **ML Preprocessing**: Auto-scaling, encoding, feature engineering
+-  **GUI Version**: Drag-and-drop interface with Streamlit
+-  **Predictive Insights**: ML-powered predictions
+-  **Web Dashboard**: Interactive web-based analytics
 
 ---
 
-## 🎁 What Makes Kuya Extraordinary?
+##  What Makes Kuya Extraordinary?
 
-### 🚀 Productivity Boosters
-- ⚡ **One-line commands** replace 10+ lines of Pandas code
-- 🪄 **Magic Analyze** - complete analysis with one command
-- 🤖 **Smart encoding** - automatic categorical variable handling
-- 🔍 **Quality scoring** - instant data quality assessment
+###  Productivity Boosters
+-  **One-line commands** replace 10+ lines of Pandas code
+-  **Magic Analyze** - complete analysis with one command
+-  **Smart encoding** - automatic categorical variable handling
+-  **Quality scoring** - instant data quality assessment
 
-### 🎨 Professional Output
-- 📊 Beautiful, consistent visualizations
-- 📈 Insightful statistical reports
-- 💡 Automated recommendations
-- ✨ Emoji-enhanced readable output
+###  Professional Output
+-  Beautiful, consistent visualizations
+-  Insightful statistical reports
+-  Automated recommendations
+-  Emoji-enhanced readable output
 
 ### 🛠️ Production Ready
-- ✅ Well-tested and documented
-- 📦 Modular, extensible architecture
-- 🔧 CLI for quick tasks
-- 💾 Memory optimization suggestions
+-  Well-tested and documented
+-  Modular, extensible architecture
+-  CLI for quick tasks
+-  Memory optimization suggestions
 
 ---
 
-## 🌟 Real-World Impact
+## Real-World Impact
 
-### Before Kuya 😫
+### Before Kuya 
 ```python
 # Typical data cleaning workflow (50+ lines)
 import pandas as pd
@@ -573,10 +573,10 @@ plt.show()
 # Save
 df.to_csv('cleaned.csv', index=False)
 
-# Time spent: 30-45 minutes 😩
+# Time spent: 30-45 minutes 
 ```
 
-### After Kuya 🚀
+### After Kuya 
 ```python
 import kuya as ky
 
@@ -588,19 +588,19 @@ df.corr_heatmap()
 ky.save(df, 'cleaned.csv')
 
 # Time spent: 30 seconds ⚡
-# Insights: 10x better 🤖
+# Insights: 10x better 
 # Coffee breaks: Maximized ☕
 ```
 
 ### The Result
-- ⏰ **90% less code**
-- ⚡ **50x faster**
-- 🧠 **AI-powered insights included**
-- 😊 **Actually enjoyable**
+-  **90% less code**
+-  **50x faster**
+-  **AI-powered insights included**
+-  **Actually enjoyable**
 
 ---
 
-## 🎓 Perfect For
+##  Perfect For
 
 ✅ **Data Scientists** - Spend less time cleaning, more time modeling  
 ✅ **Data Analysts** - Generate insights and reports instantly  
@@ -657,7 +657,7 @@ MIT License - feel free to use this in your projects!
 
 ## 👤 Author
 
-**Bishnu PS**
+**Bishnu Prasad Sahu**
 
 ---
 

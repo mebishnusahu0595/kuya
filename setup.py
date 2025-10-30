@@ -5,17 +5,17 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="kuya-data",  # Note: 'kuya' might be taken, using 'kuya-data' as backup
-    version="0.1.0",
+    version="0.1.1",
     author="Bishnu PS",
     author_email="bishnups@example.com",
     description="🎉 Your friendly AI-powered data analysis assistant - 10x faster than traditional Pandas workflows",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/bishnups/kuya",  # Update with your actual GitHub
+    url="https://github.com/mebishnusahu0595/kuya",
     project_urls={
-        "Bug Reports": "https://github.com/bishnups/kuya/issues",
-        "Source": "https://github.com/bishnups/kuya",
-        "Documentation": "https://github.com/bishnups/kuya#readme",
+        "Bug Reports": "https://github.com/mebishnusahu0595/kuya/issues",
+        "Source": "https://github.com/mebishnusahu0595/kuya",
+        "Documentation": "https://github.com/mebishnusahu0595/kuya#readme",
     },
     packages=find_packages(exclude=["tests*", "examples*"]),
     classifiers=[

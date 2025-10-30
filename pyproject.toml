@@ -56,10 +56,10 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/bishnups/kuya"
-Documentation = "https://github.com/bishnups/kuya#readme"
-Repository = "https://github.com/bishnups/kuya"
-"Bug Reports" = "https://github.com/bishnups/kuya/issues"
+Homepage = "https://github.com/mebishnusahu0595/kuya"
+Documentation = "https://github.com/mebishnusahu0595/kuya#readme"
+Repository = "https://github.com/mebishnusahu0595/kuya"
+"Bug Reports" = "https://github.com/mebishnusahu0595/kuya/issues"
 
 [tool.setuptools]
 packages = ["kuya"]
