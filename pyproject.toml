@@ -1,0 +1,68 @@
+[build-system]
+requires = ["setuptools>=45", "wheel", "setuptools_scm>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kuya-data"
+dynamic = ["version"]
+description = "🎉 Your friendly AI-powered data analysis assistant - 10x faster than traditional Pandas workflows"
+readme = "README.md"
+requires-python = ">=3.7"
+license = {text = "MIT"}
+authors = [
+    {name = "Bishnu PS", email = "bishnups@example.com"}
+]
+maintainers = [
+    {name = "Bishnu PS", email = "bishnups@example.com"}
+]
+keywords = [
+    "data-analysis",
+    "pandas",
+    "data-science", 
+    "eda",
+    "machine-learning",
+    "ai-powered",
+    "automation"
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+dependencies = [
+    "pandas>=1.3.0",
+    "numpy>=1.20.0",
+    "matplotlib>=3.3.0",
+    "seaborn>=0.11.0",
+    "scipy>=1.7.0",
+    "openpyxl>=3.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=6.0",
+    "pytest-cov>=2.0",
+    "black>=21.0",
+    "flake8>=3.9",
+]
+
+[project.urls]
+Homepage = "https://github.com/bishnups/kuya"
+Documentation = "https://github.com/bishnups/kuya#readme"
+Repository = "https://github.com/bishnups/kuya"
+"Bug Reports" = "https://github.com/bishnups/kuya/issues"
+
+[tool.setuptools]
+packages = ["kuya"]
+
+[tool.setuptools_scm]
+write_to = "kuya/_version.py"

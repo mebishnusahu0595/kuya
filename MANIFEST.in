@@ -1,0 +1,8 @@
+include README.md
+include LICENSE
+include requirements.txt
+include PUBLISHING_GUIDE.md
+include QUICKSTART.md
+include EXTRAORDINARY.md
+include MASTER_GUIDE.md
+recursive-include kuya *.py
